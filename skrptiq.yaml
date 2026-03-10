@@ -1,0 +1,38 @@
+name: "competitive-analysis-flow"
+display_name: "Competitive Analysis Flow"
+description: "Structured competitor research and comparison framework with positioning recommendations"
+version: "1.0.0"
+engine: ">=1.0.0"
+
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+licence: "MIT"
+repository: "https://github.com/skrpts/competitive-analysis-flow"
+
+category: "product-manager"
+tags:
+  - "competitive-analysis"
+  - "market-research"
+  - "positioning"
+  - "strategy"
+  - "product-management"
+
+requires:
+  services:
+    - "anthropic-claude"
+  permissions:
+    - "network:web-search"
+  data_handling:
+    - "market-data"
+    - "competitor-information"
+
+contents:
+  skills: 3
+  prompts: 5
+  workflows: 1
+  services: 1
+  sources: 1
+  documents: 1
+  assets: 1
+  total: 13

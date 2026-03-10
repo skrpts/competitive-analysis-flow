@@ -1,0 +1,112 @@
+---
+type: prompt
+id: competitive-brief-writer
+title: Competitive Brief Writer
+description: "Assemble all competitive analysis findings into an executive-ready competitive brief"
+tags: [Production]
+connections:
+  - target: strategic-recommendation
+    type: derived_from
+  - target: competitor-comparison-template
+    type: references
+metadata:
+  estimated_duration: "5 minutes"
+  avg_tokens: 4000
+  trigger: manual
+---
+
+## Competitive Brief Writer
+
+You are a strategic analyst compiling a competitive intelligence brief for executive leadership. The brief must be concise enough for a 15-minute read, yet comprehensive enough to inform strategic decisions.
+
+### Input
+
+**Product name:** {{product_name}}
+
+**Competitor discovery results:** {{competitor_discovery}}
+
+**Feature comparison matrix:** {{feature_comparison}}
+
+**SWOT analysis:** {{swot_analysis}}
+
+**Positioning map narrative:** {{positioning_map}}
+
+**Analysis date:** {{analysis_date}}
+
+**Prepared by:** {{analyst_name}}
+
+### Instructions
+
+Using the competitor-comparison-template structure, compile all competitive analysis inputs into a single, cohesive executive brief. Follow these section-by-section guidelines.
+
+**Executive Summary (200 words maximum)**
+
+Distil the entire analysis into a summary that a CEO could read in 2 minutes. Cover:
+- How many competitors were analysed and across what tiers
+- Your product's overall competitive position in one sentence
+- The single most important strategic finding
+- The single most urgent recommended action
+
+**Market Landscape Overview**
+
+Synthesise the competitor discovery findings:
+- Market maturity and trajectory (emerging, growing, mature, consolidating)
+- Total addressable market dynamics
+- Key market trends affecting all players
+- Regulatory or technological forces reshaping the landscape
+- Present this as a narrative, not a data dump
+
+**Competitor Profiles Summary**
+
+For each competitor (direct, indirect, emerging), provide a condensed profile card:
+- One-sentence description
+- Key strength (what they do best)
+- Key vulnerability (where they are weakest)
+- Threat level to your product (Low, Medium, High)
+- Recent notable moves
+
+Keep each profile to 3-5 bullet points. The full profiles are available in the appendix for those who want detail.
+
+**Feature Comparison Highlights**
+
+Do not reproduce the full matrix. Instead, highlight:
+- Your top 3 competitive advantages (dimensions where you lead)
+- Your top 3 competitive gaps (dimensions where you trail)
+- Market table stakes (dimensions where everyone is comparable)
+- One emerging dimension that no competitor excels at yet
+
+**SWOT Summary**
+
+Present the SWOT as a 2x2 visual summary with 3-4 items per quadrant. Highlight the most important cross-quadrant insight (e.g., "Our strength in X positions us to exploit the opportunity in Y, but our weakness in Z makes the threat from W particularly dangerous").
+
+**Positioning Analysis**
+
+Describe the positioning map in narrative form:
+- Where your product sits relative to competitors
+- Where the white space exists
+- Recommended positioning shift (if any)
+- Draft positioning statement
+
+**Strategic Recommendations**
+
+Present 5-7 prioritised recommendations, each with:
+- **Action:** What to do (one sentence)
+- **Category:** Invest, Differentiate, Match, or Concede
+- **Priority:** High, Medium, or Low
+- **Effort:** Low, Medium, or High
+- **Expected impact:** What success looks like
+- **Timeline:** Next quarter, next half, next year
+
+Order recommendations by priority. Lead with the highest-impact, highest-feasibility actions.
+
+**Recommended Next Steps**
+
+Close with 3-5 concrete next steps:
+- Who should review this brief
+- What decisions need to be made based on these findings
+- When the next competitive analysis refresh should occur
+- What additional research would strengthen the analysis
+
+### Output Format
+
+Follow the competitor-comparison-template structure. Use clear section headings, tables for structured data, and narrative paragraphs for analysis. The total document should be 1500-2500 words — long enough to be thorough, short enough to be read.
