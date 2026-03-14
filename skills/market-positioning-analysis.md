@@ -5,7 +5,7 @@ title: Market Positioning Analysis
 description: "Analysing market positioning across strategic dimensions and identifying competitive white space"
 tags: [Production, Tested]
 connections:
-  - target: claude-service
+  - target: llm-service
     type: runs_on
   - target: competitive-intelligence-framework
     type: references

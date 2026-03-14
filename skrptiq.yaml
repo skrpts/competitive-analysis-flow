@@ -19,8 +19,7 @@ tags:
   - "product-management"
 
 requires:
-  services:
-    - "anthropic-claude"
+  services: []
   permissions:
     - "network:web-search"
   data_handling:

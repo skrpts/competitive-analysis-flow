@@ -21,7 +21,7 @@ connections:
     type: uses
   - target: competitive-brief-writer
     type: uses
-  - target: claude-service
+  - target: llm-service
     type: runs_on
   - target: competitive-intelligence-framework
     type: references
@@ -103,3 +103,44 @@ This workflow produces a comprehensive competitive analysis from initial competi
 - **Stale information:** Flag any competitor data points that could not be verified against recent sources. Recommend a refresh cycle (quarterly for fast-moving markets, biannually for stable markets).
 - **Bias detection:** If the SWOT analysis shows no weaknesses or the positioning map places your product at the ideal point on both axes, flag potential confirmation bias and prompt for critical re-evaluation.
 - **Missing pricing data:** If competitor pricing is not publicly available, note this explicitly rather than guessing. Suggest methods for obtaining pricing intelligence (trial sign-ups, sales conversations, third-party databases).
+
+## Inputs
+
+| Name | Required | Description | Example |
+|------|----------|-------------|---------|
+| `{{input.your_product_description}}` | Yes | Your product description | `Paste a short brief describing the goal, audience, and constraints.` |
+| `{{input.market_segment}}` | Yes | market segment | `Paste the relevant brief, notes, source material, or dataset here.` |
+| `{{input.any_known_competitors}}` | Yes | any known competitors | `Paste the relevant brief, notes, source material, or dataset here.` |
+| `{{input.plus_your_product_s}}` | No | plus your product's current capabilities | `Paste the relevant brief, notes, source material, or dataset here.` |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| A complete competitive analysis document ready for leadership review | A complete competitive analysis document ready for leadership review |
+
+## Setup
+
+Before running this workflow:
+
+1. No external services required — paste your content directly and provide any supporting context as inputs or source nodes.
+2. Review the included documents, assets, or source nodes and customise them to match your team, brand, or domain conventions where needed.
+3. No specific AI provider or API key is required beyond your configured skrptiq LLM provider.
+
+## Provider Notes
+
+- Most stages work with any capable model; stronger models usually improve synthesis, judgement, and writing quality.
+- Extraction, classification, and formatting steps generally run well on smaller or faster models.
+- Because there are no vendor-specific integrations here, provider choice is mostly a trade-off between speed, quality, and cost.
+
+## Example Input
+
+To test this workflow immediately after import:
+
+```
+Your Product Description: "Paste a short brief describing the goal, audience, and constraints."
+Market Segment: "Paste the relevant brief, notes, source material, or dataset here."
+Any Known Competitors: "Paste the relevant brief, notes, source material, or dataset here."
+Plus Your Product S: "Paste the relevant brief, notes, source material, or dataset here."
+```
+

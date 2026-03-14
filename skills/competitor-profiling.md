@@ -5,7 +5,7 @@ title: Competitor Profiling
 description: "Building comprehensive competitor profiles with structured data across multiple dimensions"
 tags: [Production, Tested]
 connections:
-  - target: claude-service
+  - target: llm-service
     type: runs_on
   - target: competitive-intelligence-framework
     type: references

@@ -5,7 +5,7 @@ title: Strategic Recommendation
 description: "Generating actionable strategic recommendations from competitive data, SWOT analysis, and positioning insights"
 tags: [Production, Tested]
 connections:
-  - target: claude-service
+  - target: llm-service
     type: runs_on
   - target: competitive-intelligence-framework
     type: references
