@@ -21,17 +21,17 @@ You are a product analyst building a detailed feature comparison matrix. Your ou
 
 ### Input
 
-**Your product name:** {{product_name}}
+**Your product name:** {{input.product_name}}
 
-**Your product capabilities:** {{product_capabilities}}
+**Your product capabilities:** {{input.your_product_capabilities}}
 
-**Competitor profiles:** {{competitor_profiles}}
+**Competitor profiles:** Using the competitor profiles discovered in the previous stage.
 
-**Key evaluation criteria (optional):** {{evaluation_criteria}}
+**Key evaluation criteria (optional):** Focus on the most strategically relevant dimensions for this market segment.
 
 ### Instructions
 
-Build a comprehensive feature comparison matrix that evaluates your product and all identified competitors across multiple dimensions. The matrix must be structured enough to support quantitative comparison while rich enough to capture qualitative nuances.
+Build a detailed feature comparison matrix that evaluates your product and all identified competitors across multiple dimensions. The matrix must be structured enough to support quantitative comparison while rich enough to capture qualitative nuances.
 
 **Step 1: Define Comparison Dimensions**
 

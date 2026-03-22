@@ -37,7 +37,7 @@ metadata:
 
 ## Competitive Analysis Flow
 
-This workflow produces a comprehensive competitive analysis from initial competitor identification through to strategic positioning recommendations. It follows a five-stage pipeline that builds progressively deeper insight at each stage.
+This workflow produces a thorough competitive analysis from initial competitor identification through to strategic positioning recommendations. It follows a five-stage pipeline that builds progressively deeper insight at each stage.
 
 ### Stage 1: Competitor Discovery
 
@@ -108,10 +108,12 @@ This workflow produces a comprehensive competitive analysis from initial competi
 
 | Name | Required | Description | Example |
 |------|----------|-------------|---------|
+| `{{input.product_name}}` | Yes | Your product name | `Acme Project Manager` |
 | `{{input.your_product_description}}` | Yes | Your product description | `Paste a short brief describing the goal, audience, and constraints.` |
-| `{{input.market_segment}}` | Yes | market segment | `Paste the relevant brief, notes, source material, or dataset here.` |
-| `{{input.any_known_competitors}}` | Yes | any known competitors | `Paste the relevant brief, notes, source material, or dataset here.` |
-| `{{input.plus_your_product_s}}` | No | plus your product's current capabilities | `Paste the relevant brief, notes, source material, or dataset here.` |
+| `{{input.market_segment}}` | Yes | Market segment | `Paste the relevant brief, notes, source material, or dataset here.` |
+| `{{input.target_customers}}` | Yes | Target customers | `Mid-market B2B SaaS companies with 50-500 employees` |
+| `{{input.any_known_competitors}}` | Yes | Any known competitors | `Paste the relevant brief, notes, source material, or dataset here.` |
+| `{{input.your_product_capabilities}}` | No | Your product's current capabilities | `Paste the relevant brief, notes, source material, or dataset here.` |
 
 ## Outputs
 
@@ -138,9 +140,11 @@ Before running this workflow:
 To test this workflow immediately after import:
 
 ```
+Product Name: "Acme Project Manager"
 Your Product Description: "Paste a short brief describing the goal, audience, and constraints."
 Market Segment: "Paste the relevant brief, notes, source material, or dataset here."
+Target Customers: "Mid-market B2B SaaS companies with 50-500 employees"
 Any Known Competitors: "Paste the relevant brief, notes, source material, or dataset here."
-Plus Your Product S: "Paste the relevant brief, notes, source material, or dataset here."
+Your Product Capabilities: "Paste the relevant brief, notes, source material, or dataset here."
 ```
 

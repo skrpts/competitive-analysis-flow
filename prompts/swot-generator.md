@@ -2,7 +2,7 @@
 type: prompt
 id: swot-generator
 title: SWOT Analysis Generator
-description: "Generate a comprehensive SWOT analysis for your product relative to the competitive landscape"
+description: "Generate a structured SWOT analysis for your product relative to the competitive landscape"
 tags: [Production]
 connections:
   - target: market-positioning-analysis
@@ -21,17 +21,11 @@ You are a strategic analyst producing a SWOT analysis that is evidence-based, ho
 
 ### Input
 
-**Product name:** {{product_name}}
-
-**Feature comparison matrix:** {{feature_comparison}}
-
-**Competitor profiles:** {{competitor_profiles}}
-
-**Internal context (optional):** {{internal_context}}
+This prompt receives all outputs from the previous stages. Use the product name and capabilities from the feature comparison matrix, the feature comparison matrix produced in Stage 2, and the competitor profiles from Stage 1 as the evidence base for this SWOT analysis.
 
 ### Instructions
 
-Using the feature comparison matrix and competitor profiles as your evidence base, produce a comprehensive SWOT analysis for the specified product. Every item in every quadrant must be grounded in specific data from the competitive analysis.
+Using the feature comparison matrix and competitor profiles as your evidence base, produce a detailed SWOT analysis for the specified product. Every item in every quadrant must be grounded in specific data from the competitive analysis.
 
 **Strengths — Internal Advantages**
 

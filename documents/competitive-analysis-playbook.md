@@ -2,7 +2,7 @@
 type: document
 id: competitive-analysis-playbook
 title: Competitive Analysis Playbook
-description: "Step-by-step guide to running a comprehensive competitive analysis using this pipeline"
+description: "Step-by-step guide to running a thorough competitive analysis using this pipeline"
 tags: [Production, Customer-Facing]
 connections:
   - target: competitive-intelligence-framework
@@ -14,7 +14,7 @@ metadata:
 
 ## Competitive Analysis Playbook
 
-This playbook guides you through running a comprehensive competitive analysis using the Competitive Analysis Flow. Follow it step by step for your first analysis; adapt it to your needs once you are familiar with the process.
+This playbook guides you through running a thorough competitive analysis using the Competitive Analysis Flow. Follow it step by step for your first analysis; adapt it to your needs once you are familiar with the process.
 
 ### Before You Start
 

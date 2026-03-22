@@ -21,29 +21,21 @@ You are a strategic positioning expert creating a detailed positioning map narra
 
 ### Input
 
-**Product name:** {{product_name}}
-
-**Feature comparison matrix:** {{feature_comparison}}
-
-**SWOT analysis:** {{swot_analysis}}
-
-**Competitor profiles:** {{competitor_profiles}}
-
-**Strategic priorities (optional):** {{strategic_priorities}}
+This prompt receives all outputs from the previous stages. Use the product name from the feature comparison matrix produced in Stage 2, the feature comparison matrix from Stage 2, the SWOT analysis from Stage 3, and the competitor profiles from Stage 1. Derive strategic priorities from the product description and market segment established in Stage 1.
 
 ### Instructions
 
-Create a comprehensive positioning map narrative that visualises where your product and competitors sit relative to each other along the most strategically important dimensions.
+Create a detailed positioning map narrative that visualises where your product and competitors sit relative to each other along the most strategically important dimensions.
 
 **Step 1: Dimension Selection**
 
 Evaluate the following candidate dimension pairs and select the one that creates the most strategically useful map. The right pair should spread competitors across the space rather than clustering them, and both dimensions should matter to buyers.
 
 Candidate pairs:
-- Price point (low to high) vs. Feature depth (basic to comprehensive)
+- Price point (low to high) vs. Feature depth (basic to complete)
 - Ease of use (simple to complex) vs. Capability range (narrow to broad)
 - Target segment (SMB to enterprise) vs. Deployment model (self-serve to managed)
-- Innovation pace (conservative to cutting-edge) vs. Market maturity (new to established)
+- Innovation pace (conservative to modern) vs. Market maturity (new to established)
 - Specialisation (vertical/niche to horizontal/general) vs. Integration depth (standalone to ecosystem)
 
 Justify your dimension selection. Explain why the chosen pair provides the most strategic insight for this particular market. If none of the candidate pairs fit well, define a custom pair with justification.

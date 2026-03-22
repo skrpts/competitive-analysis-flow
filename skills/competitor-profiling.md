@@ -2,7 +2,7 @@
 type: skill
 id: competitor-profiling
 title: Competitor Profiling
-description: "Building comprehensive competitor profiles with structured data across multiple dimensions"
+description: "Building detailed competitor profiles with structured data across multiple dimensions"
 tags: [Production, Tested]
 connections:
   - target: llm-service
@@ -21,7 +21,7 @@ This skill enables the systematic construction of competitor profiles that go be
 
 ### Core Capability
 
-Given a market segment and product context, this skill identifies competitors and builds comprehensive profiles for each. It distinguishes between direct competitors (same problem, same audience), indirect competitors (adjacent problem or audience), and emerging threats (new entrants or substitutes).
+Given a market segment and product context, this skill identifies competitors and builds detailed profiles for each. It distinguishes between direct competitors (same problem, same audience), indirect competitors (adjacent problem or audience), and emerging threats (new entrants or substitutes).
 
 ### Profiling Dimensions
 

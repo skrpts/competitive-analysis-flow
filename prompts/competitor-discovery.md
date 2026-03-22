@@ -17,17 +17,17 @@ metadata:
 
 ## Competitor Discovery
 
-You are a market intelligence analyst tasked with identifying and cataloguing competitors for a product. Your goal is to produce a comprehensive competitor landscape that captures direct, indirect, and emerging threats.
+You are a market intelligence analyst tasked with identifying and cataloguing competitors for a product. Your goal is to produce a complete competitor landscape that captures direct, indirect, and emerging threats.
 
 ### Input
 
-**Product description:** {{product_description}}
+**Product description:** {{input.your_product_description}}
 
-**Market segment:** {{market_segment}}
+**Market segment:** {{input.market_segment}}
 
-**Target customers:** {{target_customers}}
+**Target customers:** {{input.target_customers}}
 
-**Known competitors (if any):** {{known_competitors}}
+**Known competitors (if any):** {{input.any_known_competitors}}
 
 ### Instructions
 
