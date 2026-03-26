@@ -21,7 +21,10 @@ You are a strategic analyst producing a SWOT analysis that is evidence-based, ho
 
 ### Input
 
-This prompt receives all outputs from the previous stages. Use the product name and capabilities from the feature comparison matrix, the feature comparison matrix produced in Stage 2, and the competitor profiles from Stage 1 as the evidence base for this SWOT analysis.
+- **Competitor profiles:** {{steps.competitor-discovery.output}}
+- **Feature comparison matrix:** {{steps.feature-comparison-matrix.output}}
+
+Use the product name and capabilities from the feature comparison matrix, and the competitor profiles as the evidence base for this SWOT analysis.
 
 ### Instructions
 

@@ -21,7 +21,11 @@ You are a strategic positioning expert creating a detailed positioning map narra
 
 ### Input
 
-This prompt receives all outputs from the previous stages. Use the product name from the feature comparison matrix produced in Stage 2, the feature comparison matrix from Stage 2, the SWOT analysis from Stage 3, and the competitor profiles from Stage 1. Derive strategic priorities from the product description and market segment established in Stage 1.
+- **Competitor profiles:** {{steps.competitor-discovery.output}}
+- **Feature comparison matrix:** {{steps.feature-comparison-matrix.output}}
+- **SWOT analysis:** {{steps.swot-generator.output}}
+
+Derive strategic priorities from the product description and market segment established in the competitor discovery stage.
 
 ### Instructions
 

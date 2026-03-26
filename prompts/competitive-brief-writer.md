@@ -21,7 +21,10 @@ You are a strategic analyst compiling a competitive intelligence brief for execu
 
 ### Input
 
-This prompt receives all outputs from the previous stages. Use the product name from the feature comparison matrix produced in Stage 2, the competitor discovery results from Stage 1, the feature comparison matrix from Stage 2, the SWOT analysis from Stage 3, and the positioning map narrative from Stage 4.
+- **Competitor discovery results:** {{steps.competitor-discovery.output}}
+- **Feature comparison matrix:** {{steps.feature-comparison-matrix.output}}
+- **SWOT analysis:** {{steps.swot-generator.output}}
+- **Positioning map narrative:** {{steps.positioning-map-prompt.output}}
 
 **Analysis date:** Today's date.
 
