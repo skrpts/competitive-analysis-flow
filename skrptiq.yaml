@@ -19,10 +19,12 @@ tags:
   - "product-management"
 
 requires:
-  services: []
+  services:
+    - "llm-service"
   permissions:
     - "network:web-search"
   data_handling:
+    - "pii"
     - "market-data"
     - "competitor-information"
 
