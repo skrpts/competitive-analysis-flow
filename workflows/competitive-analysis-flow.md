@@ -21,6 +21,8 @@ connections:
     type: uses
   - target: competitive-brief-writer
     type: uses
+  - target: data-analysis
+    type: uses
   - target: llm-service
     type: runs_on
   - target: competitive-intelligence-framework
