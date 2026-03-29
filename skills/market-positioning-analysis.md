@@ -3,7 +3,7 @@ type: skill
 id: market-positioning-analysis
 title: Market Positioning Analysis
 description: "Analysing market positioning across strategic dimensions and identifying competitive white space"
-tags: [Production, Tested]
+tags: [Production, Tested, analysis:competitive, planning:product]
 connections:
   - target: llm-service
     type: runs_on

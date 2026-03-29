@@ -3,7 +3,7 @@ type: prompt
 id: competitive-brief-writer
 title: Competitive Brief Writer
 description: "Assemble all competitive analysis findings into an executive-ready competitive brief"
-tags: [Production]
+tags: [Production, analysis:competitive, planning:product]
 connections:
   - target: strategic-recommendation
     type: derived_from

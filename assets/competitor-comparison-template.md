@@ -3,7 +3,7 @@ type: asset
 id: competitor-comparison-template
 title: Competitor Comparison Template
 description: "Template for the executive competitive brief and competitor comparison matrix"
-tags: [Production, Customer-Facing]
+tags: [Production, Customer-Facing, analysis:competitive, planning:product]
 connections: []
 metadata:
   asset_type: "template"

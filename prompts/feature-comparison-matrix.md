@@ -3,7 +3,7 @@ type: prompt
 id: feature-comparison-matrix
 title: Feature Comparison Matrix
 description: "Build a structured feature comparison across all identified competitors along key capability dimensions"
-tags: [Production]
+tags: [Production, analysis:competitive, research:citations]
 connections:
   - target: competitor-profiling
     type: derived_from

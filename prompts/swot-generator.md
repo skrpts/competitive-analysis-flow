@@ -3,7 +3,7 @@ type: prompt
 id: swot-generator
 title: SWOT Analysis Generator
 description: "Generate a structured SWOT analysis for your product relative to the competitive landscape"
-tags: [Production]
+tags: [Production, analysis:competitive, planning:product]
 connections:
   - target: market-positioning-analysis
     type: derived_from

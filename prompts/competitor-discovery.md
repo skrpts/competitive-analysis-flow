@@ -3,7 +3,7 @@ type: prompt
 id: competitor-discovery
 title: Competitor Discovery
 description: "Identify and catalogue competitors across direct, indirect, and emerging threat categories"
-tags: [Production]
+tags: [Production, analysis:competitive, planning:product]
 connections:
   - target: competitor-profiling
     type: derived_from
