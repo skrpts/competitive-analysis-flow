@@ -3,7 +3,7 @@ type: skill
 id: strategic-recommendation
 title: Strategic Recommendation
 description: "Generating actionable strategic recommendations from competitive data, SWOT analysis, and positioning insights"
-tags: [Production, Tested, analysis:competitive, planning:product]
+tags: [Production, Tested, Competitive, Planning]
 connections:
   - target: llm-service
     type: runs_on

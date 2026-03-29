@@ -3,7 +3,7 @@ type: source
 id: competitive-intelligence-framework
 title: Competitive Intelligence Framework
 description: "Reference framework for competitive analysis methodology, data collection, and strategic interpretation"
-tags: [Production, analysis:competitive, planning:product]
+tags: [Production, Competitive, Research]
 connections: []
 metadata:
   source_type: "reference"

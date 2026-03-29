@@ -3,7 +3,7 @@ type: skill
 id: competitor-profiling
 title: Competitor Profiling
 description: "Building detailed competitor profiles with structured data across multiple dimensions"
-tags: [Production, Tested, analysis:competitive, planning:product]
+tags: [Production, Tested, Competitive, Planning]
 connections:
   - target: llm-service
     type: runs_on

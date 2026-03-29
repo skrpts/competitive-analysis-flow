@@ -3,7 +3,7 @@ type: skill
 id: data-analysis
 title: Data Analysis
 description: "Extracting patterns, trends, and actionable insights from qualitative and quantitative data"
-tags: [Production, Tested, analysis:data, analysis:qualitative, analysis:competitive, data:quantitative]
+tags: [Production, Tested, Competitive, Data]
 connections:
   - target: llm-service
     type: runs_on

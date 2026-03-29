@@ -3,7 +3,7 @@ type: prompt
 id: positioning-map-prompt
 title: Positioning Map Generator
 description: "Create a narrative positioning map based on strategically relevant dimensions with white space analysis"
-tags: [Production, analysis:competitive, planning:product]
+tags: [Production, Competitive, Planning]
 connections:
   - target: market-positioning-analysis
     type: derived_from

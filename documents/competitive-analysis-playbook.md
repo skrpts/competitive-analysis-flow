@@ -3,7 +3,7 @@ type: document
 id: competitive-analysis-playbook
 title: Competitive Analysis Playbook
 description: "Step-by-step guide to running a thorough competitive analysis using this pipeline"
-tags: [Production, Customer-Facing, analysis:competitive, planning:product]
+tags: [Production, Customer-Facing, Competitive, Planning]
 connections:
   - target: competitive-intelligence-framework
     type: references

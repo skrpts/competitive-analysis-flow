@@ -3,7 +3,7 @@ type: workflow
 id: competitive-analysis-flow
 title: Competitive Analysis Flow
 description: "End-to-end workflow for structured competitor research, comparison, and strategic positioning recommendations"
-tags: [Production, Tested, analysis:competitive, planning:product]
+tags: [Production, Tested, Competitive, Planning]
 connections:
   - target: competitor-profiling
     type: uses
