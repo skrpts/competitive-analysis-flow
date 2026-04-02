@@ -32,13 +32,13 @@ connections:
   - target: competitor-comparison-template
     type: references
   - target: risk-assessment
+    type: uses
   - target: stakeholder-analysis
+    type: uses
 metadata:
   estimated_duration: "30 minutes"
   avg_tokens: 20000
   trigger: manual
-    type: uses
-    type: uses
 ---
 
 ## Competitive Analysis Flow
