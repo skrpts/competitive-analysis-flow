@@ -31,13 +31,13 @@ connections:
     type: references
   - target: competitor-comparison-template
     type: references
+  - target: risk-assessment
+  - target: stakeholder-analysis
 metadata:
   estimated_duration: "30 minutes"
   avg_tokens: 20000
   trigger: manual
-  - target: risk-assessment
     type: uses
-  - target: stakeholder-analysis
     type: uses
 ---
 
