@@ -2,7 +2,7 @@ id: "87b95bc6-b217-4293-98ea-15af4e5465eb"
 name: "competitive-analysis-flow"
 display_name: "Competitive Analysis Flow"
 description: "Structured competitor research and comparison framework with positioning recommendations"
-version: "1.0.4"
+version: "1.0.5"
 engine: ">=1.0.0"
 
 author:
@@ -30,11 +30,11 @@ requires:
     - "competitor-information"
 
 contents:
-  skills: 6
+  skills: 4
   prompts: 5
   workflows: 1
   services: 1
   sources: 1
   documents: 1
   assets: 1
-  total: 16
+  total: 14
