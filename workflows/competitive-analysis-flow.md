@@ -31,6 +31,8 @@ connections:
     type: references
   - target: competitor-comparison-template
     type: references
+  - target: input-gap-check
+    type: uses
 metadata:
   estimated_duration: "30 minutes"
   avg_tokens: 20000
