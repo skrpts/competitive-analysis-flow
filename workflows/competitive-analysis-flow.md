@@ -11,16 +11,6 @@ connections:
     type: uses
   - target: strategic-recommendation
     type: uses
-  - target: competitor-discovery
-    type: uses
-  - target: feature-comparison-matrix
-    type: uses
-  - target: swot-generator
-    type: uses
-  - target: positioning-map-prompt
-    type: uses
-  - target: competitive-brief-writer
-    type: uses
   - target: data-analysis
     type: uses
   - target: llm-service
