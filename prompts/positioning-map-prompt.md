@@ -21,9 +21,9 @@ You are a strategic positioning expert creating a detailed positioning map narra
 
 ### Input
 
-- **Competitor profiles:** {{steps.competitor-discovery.output}}
-- **Feature comparison matrix:** {{steps.feature-comparison-matrix.output}}
-- **SWOT analysis:** {{steps.swot-generator.output}}
+- **Competitor profiles:** {{steps.Competitor Profiling.output}}
+- **Feature comparison matrix:** {{steps.Competitor Profiling.output}}
+- **SWOT analysis:** {{steps.Market Positioning Analysis.output}}
 
 Derive strategic priorities from the product description and market segment established in the competitor discovery stage.
 

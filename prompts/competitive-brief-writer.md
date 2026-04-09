@@ -21,10 +21,10 @@ You are a strategic analyst compiling a competitive intelligence brief for execu
 
 ### Input
 
-- **Competitor discovery results:** {{steps.competitor-discovery.output}}
-- **Feature comparison matrix:** {{steps.feature-comparison-matrix.output}}
-- **SWOT analysis:** {{steps.swot-generator.output}}
-- **Positioning map narrative:** {{steps.positioning-map-prompt.output}}
+- **Competitor discovery results:** {{steps.Competitor Profiling.output}}
+- **Feature comparison matrix:** {{steps.Competitor Profiling.output}}
+- **SWOT analysis:** {{steps.Market Positioning Analysis.output}}
+- **Positioning map narrative:** {{steps.Market Positioning Analysis.output}}
 
 **Analysis date:** Today's date.
 

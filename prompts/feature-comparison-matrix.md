@@ -25,7 +25,7 @@ You are a product analyst building a detailed feature comparison matrix. Your ou
 
 **Your product capabilities:** {{input.your_product_capabilities}}
 
-**Competitor profiles:** {{steps.competitor-discovery.output}}
+**Competitor profiles:** {{steps.Competitor Profiling.output}}
 
 **Key evaluation criteria (optional):** Focus on the most strategically relevant dimensions for this market segment.
 

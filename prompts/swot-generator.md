@@ -21,8 +21,8 @@ You are a strategic analyst producing a SWOT analysis that is evidence-based, ho
 
 ### Input
 
-- **Competitor profiles:** {{steps.competitor-discovery.output}}
-- **Feature comparison matrix:** {{steps.feature-comparison-matrix.output}}
+- **Competitor profiles:** {{steps.Competitor Profiling.output}}
+- **Feature comparison matrix:** {{steps.Competitor Profiling.output}}
 
 Use the product name and capabilities from the feature comparison matrix, and the competitor profiles as the evidence base for this SWOT analysis.
 
