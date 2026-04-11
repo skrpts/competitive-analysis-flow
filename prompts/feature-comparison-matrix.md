@@ -4,6 +4,19 @@ id: feature-comparison-matrix
 title: Feature Comparison Matrix
 description: "Build a structured feature comparison across all identified competitors along key capability dimensions"
 tags: [Production, Citations, Competitive]
+inputs:
+  product_name:
+    label: "Product Name"
+    description: "The name of the product"
+    example: "Skrptiq"
+    required: true
+    type: text
+  your_product_capabilities:
+    label: "Product Capabilities"
+    description: "Key capabilities of your product"
+    example: "AI chat, workflow execution, graph visualisation, Hub import"
+    required: true
+    type: text
 connections:
   - target: competitor-profiling
     type: derived_from

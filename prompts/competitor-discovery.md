@@ -4,6 +4,30 @@ id: competitor-discovery
 title: Competitor Discovery
 description: "Identify and catalogue competitors across direct, indirect, and emerging threat categories"
 tags: [Production, Competitive, Planning]
+inputs:
+  your_product_description:
+    label: "Product Description"
+    description: "A description of your product for competitive comparison"
+    example: "AI-powered document editor with workflow automation"
+    required: true
+    type: text
+  market_segment:
+    label: "Market Segment"
+    description: "Market Segment"
+    required: true
+    type: text
+  target_customers:
+    label: "Target Customers"
+    description: "Description of target customers"
+    example: "Product managers at SaaS companies who manage cross-functional teams"
+    required: true
+    type: text
+  any_known_competitors:
+    label: "Known Competitors"
+    description: "Competitors you already know about"
+    example: "Notion, Coda, Confluence"
+    required: true
+    type: text
 connections:
   - target: competitor-profiling
     type: derived_from
