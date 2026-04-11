@@ -27,6 +27,16 @@ metadata:
   estimated_duration: "30 minutes"
   avg_tokens: 20000
   trigger: manual
+execution:
+  - skill: "competitor-profiling"
+  - skill: "market-positioning-analysis"
+    input_from: "competitor-profiling"
+  - skill: "strategic-recommendation"
+    input_from: "market-positioning-analysis"
+  - skill: "data-analysis"
+    input_from: "strategic-recommendation"
+  - skill: "input-gap-check"
+    input_from: "data-analysis"
 ---
 
 ## Competitive Analysis Flow
