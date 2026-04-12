@@ -14,6 +14,7 @@ inputs:
   market_segment:
     label: "Market Segment"
     description: "Market Segment"
+    example: "B2B SaaS for mid-market HR teams (50-500 employees)"
     required: true
     type: text
   target_customers:
