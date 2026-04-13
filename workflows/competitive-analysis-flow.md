@@ -32,16 +32,12 @@ execution:
     step_type: "synthesis"
   - skill: "market-positioning-analysis"
     step_type: "synthesis"
-    input_from: "competitor-profiling"
   - skill: "strategic-recommendation"
     step_type: "synthesis"
-    input_from: "market-positioning-analysis"
   - skill: "data-analysis"
     step_type: "synthesis"
-    input_from: "strategic-recommendation"
   - skill: "input-gap-check"
     step_type: "review"
-    input_from: "data-analysis"
 ---
 
 ## Competitive Analysis Flow
