@@ -27,6 +27,13 @@ metadata:
   estimated_duration: "30 minutes"
   avg_tokens: 20000
   trigger: manual
+output_step: "data-analysis"
+composite_steps:
+  - "competitor-profiling"
+  - "market-positioning-analysis"
+  - "strategic-recommendation"
+  - "data-analysis"
+  - "input-gap-check"
 execution:
   - skill: "competitor-profiling"
     step_type: "synthesis"
