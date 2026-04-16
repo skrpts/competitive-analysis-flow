@@ -43,6 +43,8 @@ execution:
     step_type: "synthesis"
   - skill: "data-analysis"
     step_type: "synthesis"
+    context:
+      analysis_focus: ""
   - skill: "input-gap-check"
     step_type: "review"
 ---

@@ -4,6 +4,12 @@ id: data-analysis
 title: Data Analysis
 description: "Extracting patterns, trends, and actionable insights from qualitative and quantitative data"
 tags: [Production, Tested, Competitive, Data]
+context_params:
+  analysis_focus:
+    label: "Analysis Focus"
+    description: "What aspects to focus the analysis on"
+    default: ""
+    required: true
 connections:
   - target: llm-service
     type: runs_on

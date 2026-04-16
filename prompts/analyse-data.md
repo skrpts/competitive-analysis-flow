@@ -4,13 +4,6 @@ id: analyse-data
 title: "Analyse Data"
 description: "Extracts patterns, trends, and actionable insights from data"
 tags: [Production, Data, Research]
-inputs:
-  analysis_focus:
-    label: "Analysis Focus"
-    description: "What aspects to focus the analysis on"
-    example: "Focus on pricing models, enterprise features, and developer experience"
-    required: true
-    type: text
 connections:
   - target: data-analysis
     type: derived_from
@@ -33,7 +26,7 @@ You are a data analyst. Analyse the data below and extract actionable insights.
 
 ### Analysis Focus
 
-{{input.analysis_focus}}
+{{step.context.analysis_focus}}
 
 ### Instructions
 
