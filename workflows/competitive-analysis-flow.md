@@ -13,6 +13,8 @@ connections:
     type: uses
   - target: data-analysis
     type: uses
+  - target: language-polish
+    type: uses
   - target: llm-service
     type: runs_on
   - target: competitive-intelligence-framework
@@ -27,7 +29,7 @@ metadata:
   estimated_duration: "30 minutes"
   avg_tokens: 20000
   trigger: manual
-output_step: "data-analysis"
+output_step: "language-polish"
 composite_steps:
   - "competitor-profiling"
   - "market-positioning-analysis"
@@ -37,8 +39,10 @@ composite_steps:
 execution:
   - skill: "competitor-profiling"
     step_type: "synthesis"
+    prompt: "competitor-discovery"
   - skill: "market-positioning-analysis"
     step_type: "synthesis"
+    prompt: "positioning-map-prompt"
   - skill: "strategic-recommendation"
     step_type: "synthesis"
   - skill: "data-analysis"
@@ -47,6 +51,8 @@ execution:
       analysis_focus: ""
   - skill: "input-gap-check"
     step_type: "review"
+  - skill: "language-polish"
+    step_type: "content"
 ---
 
 ## Competitive Analysis Flow
