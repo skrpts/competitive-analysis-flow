@@ -44,14 +44,17 @@ execution:
     step_type: "synthesis"
     prompt: "positioning-map-prompt"
   - skill: "strategic-recommendation"
+    prompt: "competitive-brief-writer"
     step_type: "synthesis"
   - skill: "data-analysis"
+    prompt: "analyse-data"
     step_type: "synthesis"
     context:
       analysis_focus: ""
   - skill: "input-gap-check"
     step_type: "review"
   - skill: "language-polish"
+    prompt: "polish-language"
     step_type: "content"
 ---
 
