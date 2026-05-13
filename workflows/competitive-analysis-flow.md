@@ -50,15 +50,16 @@ execution:
     prompt: "analyse-data"
     step_type: "synthesis"
     context:
-      analysis_focus: ""
+      analysis_focus: "General analysis"
   - skill: "input-gap-check"
-    step_type: "review"
+    prompt: "check-input-gaps"
+    step_type: "validation"
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
     context:
-      voice_profile: ""
-      grammar_strictness: ""
+      voice_profile: "Neutral professional tone"
+      grammar_strictness: "Professional"
 ---
 
 ## Competitive Analysis Flow
