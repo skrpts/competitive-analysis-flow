@@ -2,7 +2,7 @@ id: "87b95bc6-b217-4293-98ea-15af4e5465eb"
 name: "competitive-analysis-flow"
 display_name: "Competitive Analysis Flow"
 description: "Structured competitor research and comparison framework with positioning recommendations"
-version: "1.1.22"
+version: "1.1.23"
 engine: ">=0.1.0"
 
 author:
@@ -16,8 +16,8 @@ tags:
   - "competitive-analysis"
   - "market-research"
   - "positioning"
-  - "strategy"
   - "product-management"
+  - "strategy"
 
 requires:
   services:
