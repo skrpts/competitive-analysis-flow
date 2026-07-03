@@ -40,23 +40,29 @@ execution:
   - skill: "competitor-profiling"
     step_type: "synthesis"
     prompt: "competitor-discovery"
+    output: { name: "competitors", type: "list" }
   - skill: "market-positioning-analysis"
     step_type: "synthesis"
     prompt: "positioning-map-prompt"
+    output: { name: "positioning_map", type: "text" }
   - skill: "strategic-recommendation"
     prompt: "competitive-brief-writer"
     step_type: "synthesis"
+    output: { name: "recommendations", type: "text" }
   - skill: "data-analysis"
     prompt: "analyse-data"
     step_type: "synthesis"
+    output: { name: "analysis", type: "text" }
     context:
       analysis_focus: "General analysis"
   - skill: "input-gap-check"
     prompt: "check-input-gaps"
     step_type: "validation"
+    output: { name: "input_gaps", type: "decision" }
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
+    output: { name: "polished_analysis", type: "text" }
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"

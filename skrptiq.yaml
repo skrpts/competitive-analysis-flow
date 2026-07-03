@@ -2,7 +2,7 @@ id: "87b95bc6-b217-4293-98ea-15af4e5465eb"
 name: "competitive-analysis-flow"
 display_name: "Competitive Analysis Flow"
 description: "Structured competitor research and comparison framework with positioning recommendations"
-version: "1.1.25"
+version: "1.1.26"
 engine: ">=0.1.0"
 
 author:
@@ -76,3 +76,17 @@ contents:
   documents: 1
   assets: 1
   total: 10
+
+security:
+  status: "pass"
+  scanned_at: "2026-07-03T10:59:50.952Z"
+  scanner_version: "3.3.0"
+  syntactic: "pass"
+  structural: "pass"
+  detected:
+    services: ["llm-service"]
+    permissions: []
+    data_handling: []
+  undeclared: []
+  warnings: []
+  report_url: "https://hub.skrptiq.ai/skrpts/competitive-analysis-flow/security"
