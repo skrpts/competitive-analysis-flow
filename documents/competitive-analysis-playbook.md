@@ -70,7 +70,7 @@ The cross-quadrant analysis is the most valuable part. Pay particular attention 
 The positioning map requires two strategic dimensions. Review the selected dimensions:
 - Do they matter to your buyers?
 - Do they differentiate competitors (spread them out rather than cluster them)?
-- Would your sales team recognise these as the dimensions customers evaluate?
+- Would your sales team recognize these as the dimensions customers evaluate?
 
 If the dimensions feel wrong, suggest alternatives and re-run.
 
@@ -78,7 +78,7 @@ If the dimensions feel wrong, suggest alternatives and re-run.
 
 The final brief compiles everything into an executive-ready document. Before sharing:
 - Verify the executive summary accurately reflects the full analysis
-- Check that recommendations are actionable and appropriately prioritised
+- Check that recommendations are actionable and appropriately prioritized
 - Ensure the tone is balanced — neither complacent nor alarmist
 
 ### After the Analysis

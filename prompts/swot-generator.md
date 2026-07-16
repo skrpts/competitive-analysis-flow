@@ -67,7 +67,7 @@ Identify competitive moves, market shifts, or external forces that could undermi
 - **Title:** A specific threat description
 - **Source:** What is driving this threat (competitor action, market trend, regulatory change, technological shift)
 - **Probability:** How likely is this threat to materialise? High, Medium, or Low
-- **Impact if realised:** What would the consequence be for your product or business?
+- **Impact if realized:** What would the consequence be for your product or business?
 - **Mitigation options:** 1-2 actions that could reduce the probability or impact
 
 Include a minimum of 3 threats.

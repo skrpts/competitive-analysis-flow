@@ -2,7 +2,7 @@ id: "87b95bc6-b217-4293-98ea-15af4e5465eb"
 name: "competitive-analysis-flow"
 display_name: "Competitive Analysis Flow"
 description: "Structured competitor research and comparison framework with positioning recommendations"
-version: "1.1.26"
+version: "1.1.27"
 engine: ">=0.1.0"
 
 author:
@@ -22,32 +22,32 @@ tags:
 dependencies:
   - id: "bf7db12e-60ab-4f4d-8690-ebf51f922f39"
     name: "analyse-data"
-    version: 1.0.1
-    checksum: "sha256:24ba1401b3edbb60cd96826292bd1ae3945bafdf3353a6984af97c5ea572e24c"
+    version: 1.0.3
+    checksum: "sha256:6167c929af86fea2babffa6b3e4745478b16a4ff7a4637e436b9789d8e70993d"
   - id: "01a55f0b-66e4-4059-9695-3d6043605add"
     name: "check-input-gaps"
-    version: 1.0.1
-    checksum: "sha256:0cd9eb1c7861b7724c88e786823b417f250f1df5fc6ff43c13cb33c3bd4e6f31"
+    version: 1.0.4
+    checksum: "sha256:41fdc758f3c51465f8ab20678a51f798dcd0200ca6386300c473b749fc1852c8"
   - id: "dcfb295b-6d09-46ea-8f09-4ba8684a6f25"
     name: "competitor-profiling"
-    version: 1.0.1
-    checksum: "sha256:62c0bcc238fc803607d0bf1139b658db147e9e381079e9eeaeb828232338d4ea"
+    version: 1.0.3
+    checksum: "sha256:e1e52dac720c9f4a336a528fdd12d34353925b12ed0120ba5ec82b7ec35fe5e2"
   - id: "8c77a144-bc67-4f2e-ac16-d677dc8407b7"
     name: "data-analysis"
-    version: 1.0.1
-    checksum: "sha256:1812f75372270794303edeba7ff8f49a47e43f349370b7d85999b240c1faf1a1"
+    version: 1.0.3
+    checksum: "sha256:897d2fdd4f5e946020cf5d89e950180229cc4328f782acb280dd728f4dd2b584"
   - id: "a20ad2f8-a4ca-4c9f-a39b-5674f0773881"
     name: "input-gap-check"
-    version: 1.0.1
-    checksum: "sha256:36a30f5c804561b32adf0c66a26362a7db7ce8b07d77c452c8aa9ae2a1c444ca"
+    version: 1.0.3
+    checksum: "sha256:e29d3c2091a058d0751079b8026038734d0412a7aec0938d72290815fe443bf7"
   - id: "3db66b8b-8758-4503-a555-5330f3f9b3d9"
     name: "language-polish"
-    version: 1.0.1
-    checksum: "sha256:ca27d401a2049f5508f0c6d5dc387a2fc4b3b4e61b439d5e8f717b448708b18b"
+    version: 1.0.3
+    checksum: "sha256:efe38bb2b4ba213139299818cc4c7d694270fcfd7ec4d3c738e2170f6394bbd6"
   - id: "fcab9536-a13e-49c9-b0c3-bb3097682e69"
     name: "llm-service"
-    version: 1.0.1
-    checksum: "sha256:455c8bf590a9426d830bffd1a741afa058149bc29c58186c34d0d8699bea4bda"
+    version: 1.0.3
+    checksum: "sha256:18783015383c041de9c3fdaa191b79172ab534348448c20c74f9a967ab4dd917"
   - id: "9b1771e0-39b0-4fbc-8d45-738f51b6083a"
     name: "polish-language"
     version: 1.0.1
@@ -79,7 +79,7 @@ contents:
 
 security:
   status: "pass"
-  scanned_at: "2026-07-03T15:49:49.038Z"
+  scanned_at: "2026-07-16T20:23:38.524Z"
   scanner_version: "3.3.0"
   syntactic: "pass"
   structural: "pass"

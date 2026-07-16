@@ -77,7 +77,7 @@ This workflow produces a thorough competitive analysis from initial competitor i
 **Input:** Your product description, market segment, and any known competitors.
 
 1. Invoke the **competitor-discovery** prompt using the **competitor-profiling** skill.
-2. The prompt identifies and catalogues competitors across three tiers:
+2. The prompt identifies and catalogs competitors across three tiers:
    - **Direct competitors:** Products solving the same problem for the same audience
    - **Indirect competitors:** Products solving a related problem or serving an adjacent audience
    - **Emerging threats:** New entrants, open-source alternatives, or platform features that could displace your solution
@@ -86,7 +86,7 @@ This workflow produces a thorough competitive analysis from initial competitor i
 
 ### Stage 2: Feature Comparison
 
-**Input:** The competitor catalogue from Stage 1.
+**Input:** The competitor catalog from Stage 1.
 
 1. Invoke the **feature-comparison-matrix** prompt.
 2. Build a structured comparison across key capability dimensions:
@@ -159,7 +159,7 @@ This workflow produces a thorough competitive analysis from initial competitor i
 Before running this workflow:
 
 1. No external services required — paste your content directly and provide any supporting context as inputs or source nodes.
-2. Review the included documents, assets, or source nodes and customise them to match your team, brand, or domain conventions where needed.
+2. Review the included documents, assets, or source nodes and customize them to match your team, brand, or domain conventions where needed.
 3. No specific AI provider or API key is required beyond your configured skrptiq LLM provider.
 
 ## Provider Notes

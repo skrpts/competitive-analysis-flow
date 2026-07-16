@@ -14,7 +14,7 @@ inputs:
   your_product_capabilities:
     label: "Product Capabilities"
     description: "Key capabilities of your product"
-    example: "AI chat, workflow execution, graph visualisation, Hub import"
+    example: "AI chat, workflow execution, graph visualization, Hub import"
     required: true
     type: text
 connections:
@@ -53,7 +53,7 @@ Select at least 8 comparison dimensions from the following categories. Include a
 *Core Product Capabilities:*
 - Primary features (list the 5-8 most important capabilities)
 - Depth of functionality in each core area
-- Customisation and configuration options
+- Customization and configuration options
 - Automation capabilities
 - AI or intelligent features
 
@@ -94,7 +94,7 @@ Accompany each score with a brief justification (1-2 sentences) citing specific 
 
 **Step 3: Identify Patterns**
 
-After completing the matrix, analyse it for patterns:
+After completing the matrix, analyze it for patterns:
 
 1. **Your advantages:** Dimensions where you score "Strong" and most competitors score "Adequate" or below. These are your defensible strengths.
 2. **Your gaps:** Dimensions where competitors score "Strong" and you score "Adequate" or below. These are your competitive vulnerabilities.

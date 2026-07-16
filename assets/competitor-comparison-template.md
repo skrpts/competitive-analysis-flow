@@ -28,7 +28,7 @@ Use this template structure when assembling the final competitive analysis brief
 
 ## 1. Executive Summary
 
-[Maximum 200 words. Cover: number of competitors analysed, overall competitive position, most important finding, most urgent recommendation.]
+[Maximum 200 words. Cover: number of competitors analyzed, overall competitive position, most important finding, most urgent recommendation.]
 
 ## 2. Market Landscape
 

@@ -29,7 +29,7 @@ Derive strategic priorities from the product description and market segment esta
 
 ### Instructions
 
-Create a detailed positioning map narrative that visualises where your product and competitors sit relative to each other along the most strategically important dimensions.
+Create a detailed positioning map narrative that visualizes where your product and competitors sit relative to each other along the most strategically important dimensions.
 
 **Step 1: Dimension Selection**
 
@@ -40,7 +40,7 @@ Candidate pairs:
 - Ease of use (simple to complex) vs. Capability range (narrow to broad)
 - Target segment (SMB to enterprise) vs. Deployment model (self-serve to managed)
 - Innovation pace (conservative to modern) vs. Market maturity (new to established)
-- Specialisation (vertical/niche to horizontal/general) vs. Integration depth (standalone to ecosystem)
+- Specialization (vertical/niche to horizontal/general) vs. Integration depth (standalone to ecosystem)
 
 Justify your dimension selection. Explain why the chosen pair provides the most strategic insight for this particular market. If none of the candidate pairs fit well, define a custom pair with justification.
 
@@ -53,7 +53,7 @@ For each product (your product and all competitors), describe its position on th
 - **Trajectory:** Is this product moving? In which direction? What signals indicate this movement?
 - **Cluster membership:** Does this product cluster with others, or does it occupy a unique position?
 
-**Step 3: Quadrant Characterisation**
+**Step 3: Quadrant Characterization**
 
 Describe what each quadrant of the map represents in market terms:
 

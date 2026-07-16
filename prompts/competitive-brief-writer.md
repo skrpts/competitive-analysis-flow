@@ -37,14 +37,14 @@ Using the competitor-comparison-template structure, compile all competitive anal
 **Executive Summary (200 words maximum)**
 
 Distil the entire analysis into a summary that a CEO could read in 2 minutes. Cover:
-- How many competitors were analysed and across what tiers
+- How many competitors were analyzed and across what tiers
 - Your product's overall competitive position in one sentence
 - The single most important strategic finding
 - The single most urgent recommended action
 
 **Market Landscape Overview**
 
-Synthesise the competitor discovery findings:
+Synthesize the competitor discovery findings:
 - Market maturity and trajectory (emerging, growing, mature, consolidating)
 - Total addressable market dynamics
 - Key market trends affecting all players
@@ -84,7 +84,7 @@ Describe the positioning map in narrative form:
 
 **Strategic Recommendations**
 
-Present 5-7 prioritised recommendations, each with:
+Present 5-7 prioritized recommendations, each with:
 - **Action:** What to do (one sentence)
 - **Category:** Invest, Differentiate, Match, or Concede
 - **Priority:** High, Medium, or Low

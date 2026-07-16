@@ -2,7 +2,7 @@
 type: prompt
 id: competitor-discovery
 title: Competitor Discovery
-description: "Identify and catalogue competitors across direct, indirect, and emerging threat categories"
+description: "Identify and catalog competitors across direct, indirect, and emerging threat categories"
 tags: [Production, Competitive, Planning]
 inputs:
   your_product_description:

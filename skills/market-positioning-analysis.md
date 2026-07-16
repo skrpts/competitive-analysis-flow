@@ -2,7 +2,7 @@
 type: skill
 id: market-positioning-analysis
 title: Market Positioning Analysis
-description: "Analysing market positioning across strategic dimensions and identifying competitive white space"
+description: "Analyzing market positioning across strategic dimensions and identifying competitive white space"
 tags: [Production, Tested, Competitive, Planning]
 connections:
   - target: llm-service
@@ -17,7 +17,7 @@ metadata:
 
 ## Market Positioning Analysis
 
-This skill analyses how products are positioned within a market and identifies gaps where differentiated positioning is possible. It transforms raw competitive data into strategic spatial understanding.
+This skill analyzes how products are positioned within a market and identifies gaps where differentiated positioning is possible. It transforms raw competitive data into strategic spatial understanding.
 
 ### Core Capability
 
@@ -30,7 +30,7 @@ The first step is identifying which two dimensions create the most strategically
 - **Price vs. Feature depth** — Useful when the market has clear economy and premium segments
 - **Simplicity vs. Power** — Useful for products where ease of use trades off against capability
 - **SMB focus vs. Enterprise focus** — Useful when competitors serve different company sizes
-- **Horizontal vs. Vertical** — Useful when some competitors specialise in specific industries while others are general-purpose
+- **Horizontal vs. Vertical** — Useful when some competitors specialize in specific industries while others are general-purpose
 - **Self-serve vs. Sales-led** — Useful when go-to-market strategy is a key differentiator
 - **Established vs. Innovative** — Useful when market disruption is occurring
 

@@ -43,7 +43,7 @@ New entrants, open-source alternatives, platform-native features, or adjacent pr
 
 | Score | Definition | Evidence Required |
 |-------|-----------|-------------------|
-| Strong | Best-in-class capability | Specific feature documentation, positive reviews, recognised awards |
+| Strong | Best-in-class capability | Specific feature documentation, positive reviews, recognized awards |
 | Adequate | Meets market expectations | Feature exists and functions without major complaints |
 | Weak | Below market expectations | Documented limitations, negative reviews, missing sub-features |
 | Absent | Capability does not exist | Confirmed absence in documentation and product |
