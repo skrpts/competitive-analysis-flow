@@ -17,6 +17,12 @@ inputs:
     example: "AI chat, workflow execution, graph visualization, Hub import"
     required: true
     type: text
+context_params:
+  competitor_profiles:
+    label: "Competitor Profiles"
+    description: "Competitor discovery output — the evidence base for the matrix."
+    required: false
+    default_from_previous: true
 connections:
   - target: competitor-profiling
     type: derived_from
@@ -38,7 +44,7 @@ You are a product analyst building a detailed feature comparison matrix. Your ou
 
 **Your product capabilities:** {{input.your_product_capabilities}}
 
-**Competitor profiles:** {{steps.previous.output}}
+**Competitor profiles:** {{step.context.competitor_profiles}}
 
 **Key evaluation criteria (optional):** Focus on the most strategically relevant dimensions for this market segment.
 

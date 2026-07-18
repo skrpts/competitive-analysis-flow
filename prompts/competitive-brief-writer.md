@@ -4,6 +4,24 @@ id: competitive-brief-writer
 title: Competitive Brief Writer
 description: "Assemble all competitive analysis findings into an executive-ready competitive brief"
 tags: [Production, Competitive, Planning]
+context_params:
+  competitor_profiles:
+    label: "Competitor Discovery Results"
+    description: "The competitor discovery output."
+    required: false
+  feature_matrix:
+    label: "Feature Comparison Matrix"
+    description: "The feature comparison matrix."
+    required: false
+  swot:
+    label: "SWOT Analysis"
+    description: "The SWOT analysis."
+    required: false
+  positioning_map:
+    label: "Positioning Map Narrative"
+    description: "The positioning map narrative."
+    required: false
+    default_from_previous: true
 connections:
   - target: strategic-recommendation
     type: derived_from
@@ -21,10 +39,10 @@ You are a strategic analyst compiling a competitive intelligence brief for execu
 
 ### Input
 
-- **Competitor discovery results:** {{steps.Competitor Profiling.output}}
-- **Feature comparison matrix:** {{steps.Competitor Profiling.output}}
-- **SWOT analysis:** {{steps.Market Positioning Analysis.output}}
-- **Positioning map narrative:** {{steps.Market Positioning Analysis.output}}
+- **Competitor discovery results:** {{step.context.competitor_profiles}}
+- **Feature comparison matrix:** {{step.context.feature_matrix}}
+- **SWOT analysis:** {{step.context.swot}}
+- **Positioning map narrative:** {{step.context.positioning_map}}
 
 **Analysis date:** Today's date.
 

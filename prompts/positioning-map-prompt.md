@@ -4,6 +4,20 @@ id: positioning-map-prompt
 title: Positioning Map Generator
 description: "Create a narrative positioning map based on strategically relevant dimensions with white space analysis"
 tags: [Production, Competitive, Planning]
+context_params:
+  competitor_profiles:
+    label: "Competitor Profiles"
+    description: "Competitor discovery output — evidence for placement."
+    required: false
+  feature_matrix:
+    label: "Feature Comparison Matrix"
+    description: "The feature comparison matrix — evidence for the axes."
+    required: false
+  swot:
+    label: "SWOT Analysis"
+    description: "The SWOT analysis — strategic priorities feeding the map."
+    required: false
+    default_from_previous: true
 connections:
   - target: market-positioning-analysis
     type: derived_from
@@ -21,9 +35,9 @@ You are a strategic positioning expert creating a detailed positioning map narra
 
 ### Input
 
-- **Competitor profiles:** {{steps.Competitor Profiling.output}}
-- **Feature comparison matrix:** {{steps.Competitor Profiling.output}}
-- **SWOT analysis:** {{steps.previous.output}}
+- **Competitor profiles:** {{step.context.competitor_profiles}}
+- **Feature comparison matrix:** {{step.context.feature_matrix}}
+- **SWOT analysis:** {{step.context.swot}}
 
 Derive strategic priorities from the product description and market segment established in the competitor discovery stage.
 

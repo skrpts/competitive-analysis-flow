@@ -7,6 +7,10 @@ tags: [Production, Tested, Competitive, Planning]
 connections:
   - target: competitor-profiling
     type: uses
+  - target: feature-comparison
+    type: uses
+  - target: swot-analysis
+    type: uses
   - target: market-positioning-analysis
     type: uses
   - target: strategic-recommendation
@@ -32,6 +36,8 @@ metadata:
 output_step: "language-polish"
 composite_steps:
   - "competitor-profiling"
+  - "feature-comparison"
+  - "swot-analysis"
   - "market-positioning-analysis"
   - "strategic-recommendation"
   - "data-analysis"
@@ -41,14 +47,56 @@ execution:
     step_type: "synthesis"
     prompt: "competitor-discovery"
     output: { name: "competitors", type: "list" }
+  - skill: "feature-comparison"
+    prompt: "feature-comparison-matrix"
+    step_type: "synthesis"
+    output: { name: "feature_matrix", type: "text" }
+    bindings:
+      competitor_profiles:
+        from_step: "Competitor Profiling"
+        field: output
+  - skill: "swot-analysis"
+    prompt: "swot-generator"
+    step_type: "synthesis"
+    output: { name: "swot", type: "text" }
+    bindings:
+      competitor_profiles:
+        from_step: "Competitor Profiling"
+        field: output
+      feature_matrix:
+        from_step: "Feature Comparison Matrix"
+        field: output
   - skill: "market-positioning-analysis"
     step_type: "synthesis"
     prompt: "positioning-map-prompt"
     output: { name: "positioning_map", type: "text" }
+    bindings:
+      competitor_profiles:
+        from_step: "Competitor Profiling"
+        field: output
+      feature_matrix:
+        from_step: "Feature Comparison Matrix"
+        field: output
+      swot:
+        from_step: "SWOT Analysis Generator"
+        field: output
   - skill: "strategic-recommendation"
     prompt: "competitive-brief-writer"
     step_type: "synthesis"
     output: { name: "recommendations", type: "text" }
+    bindings:
+      competitor_profiles:
+        from_step: "Competitor Profiling"
+        field: output
+      feature_matrix:
+        from_step: "Feature Comparison Matrix"
+        field: output
+      swot:
+        from_step: "SWOT Analysis Generator"
+        field: output
+      positioning_map:
+        from_step: "Market Positioning Analysis"
+        field: output
   - skill: "data-analysis"
     prompt: "analyse-data"
     step_type: "synthesis"
@@ -66,6 +114,10 @@ execution:
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
+    bindings:
+      source:
+        from_step: "Strategic Recommendation"
+        field: output
 ---
 
 ## Competitive Analysis Flow

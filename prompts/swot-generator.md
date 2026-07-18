@@ -4,6 +4,16 @@ id: swot-generator
 title: SWOT Analysis Generator
 description: "Generate a structured SWOT analysis for your product relative to the competitive landscape"
 tags: [Production, Competitive, Planning]
+context_params:
+  competitor_profiles:
+    label: "Competitor Profiles"
+    description: "Competitor discovery output — evidence base for the SWOT."
+    required: false
+  feature_matrix:
+    label: "Feature Comparison Matrix"
+    description: "The feature comparison matrix — evidence base for the SWOT."
+    required: false
+    default_from_previous: true
 connections:
   - target: market-positioning-analysis
     type: derived_from
@@ -21,8 +31,8 @@ You are a strategic analyst producing a SWOT analysis that is evidence-based, ho
 
 ### Input
 
-- **Competitor profiles:** {{steps.Competitor Profiling.output}}
-- **Feature comparison matrix:** {{steps.Competitor Profiling.output}}
+- **Competitor profiles:** {{step.context.competitor_profiles}}
+- **Feature comparison matrix:** {{step.context.feature_matrix}}
 
 Use the product name and capabilities from the feature comparison matrix, and the competitor profiles as the evidence base for this SWOT analysis.
 
