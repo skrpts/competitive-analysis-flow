@@ -103,10 +103,18 @@ execution:
     output: { name: "analysis", type: "text" }
     context:
       analysis_focus: "General analysis"
+    bindings:
+      source:
+        from_step: "Strategic Recommendation"
+        field: output
   - skill: "input-gap-check"
     prompt: "check-input-gaps"
     step_type: "validation"
     output: { name: "input_gaps", type: "decision" }
+    bindings:
+      source:
+        from_step: "Data Analysis"
+        field: output
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
