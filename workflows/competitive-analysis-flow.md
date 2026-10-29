@@ -29,6 +29,13 @@ connections:
     type: references
   - target: input-gap-check
     type: uses
+inputs:
+  competitor_brief:
+    label: "Competitor Brief"
+    description: "What the analysis is about — the market, the product, and which competitors to examine"
+    example: "SaaS project-management tools; our product is a task tracker for small agencies; examine Asana, Monday, ClickUp"
+    required: true
+    type: text
 metadata:
   estimated_duration: "30 minutes"
   avg_tokens: 20000
@@ -105,7 +112,7 @@ execution:
       analysis_focus: "General analysis"
     bindings:
       source:
-        from_step: "Strategic Recommendation"
+        from_step: "Feature Comparison Matrix"
         field: output
   - skill: "input-gap-check"
     prompt: "check-input-gaps"
@@ -113,8 +120,7 @@ execution:
     output: { name: "input_gaps", type: "decision" }
     bindings:
       source:
-        from_step: "Data Analysis"
-        field: output
+        from_input: "competitor_brief"
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"

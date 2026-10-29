@@ -1,5 +1,14 @@
 # Release Notes
 
+## v1.1.30
+GH#1100 retrospective repair — two bindings that resolved, validated and served while feeding the wrong artefact.
+
+`analyse-data`'s slot is labelled **"Data"** and was bound to Strategic Recommendation, so the data-analysis stage received the *recommendations* that are supposed to follow from it. Re-bound to Feature Comparison Matrix, which is the structured comparison data the stage exists to analyse.
+
+`check-input-gaps`'s slot is labelled **"Inputs Provided"** and its prompt body heads that section `### Inputs Provided` — it reviews what the USER supplied in order to report gaps. It was bound to Data Analysis, so it was auditing the pipeline's own output for completeness instead of the brief. This is `from_step` where `from_input` was needed: a new required `competitor_brief` workflow input now carries it.
+
+**This flow now requires an input it did not require before.** That is the fix, not a regression: previously the user supplied nothing for this slot and the gap-check silently received the pipeline's own analysis output instead of their brief. A required input that is explained is the correct trade against a wrong value that was never visible. No step in this flow produces a brief, so no binding to any step could have been right.
+
 ## v1.1.29
 GH#1100 consumer wave (batch 4) — declare the data flow this workflow was resolving positionally.
 
