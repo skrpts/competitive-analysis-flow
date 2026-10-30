@@ -30,8 +30,8 @@ connections:
   - target: input-gap-check
     type: uses
 inputs:
-  competitor_brief:
-    label: "Competitor Brief"
+  inputs_provided:
+    label: "Inputs Provided"
     description: "What the analysis is about — the market, the product, and which competitors to examine"
     example: "SaaS project-management tools; our product is a task tracker for small agencies; examine Asana, Monday, ClickUp"
     required: true
@@ -120,7 +120,7 @@ execution:
     output: { name: "input_gaps", type: "decision" }
     bindings:
       source:
-        from_input: "competitor_brief"
+        from_input: "inputs_provided"
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"

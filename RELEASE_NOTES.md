@@ -1,5 +1,12 @@
 # Release Notes
 
+## v1.1.31
+GH#1100 — rename this flow's `check-input-gaps` input from `competitor_brief` to `inputs_provided`, the slot-level name.
+
+Six packages now bind that slot from a declared input, and `competitor_brief` was named for this flow — it is wrong in the other five. One name per slot keeps the corpus legible and makes the slot's contract statable in one place. The input's description stays specific to this flow; only the name is shared.
+
+No behaviour change: the same value reaches the same step under a different key.
+
 ## v1.1.30
 GH#1100 retrospective repair — two bindings that resolved, validated and served while feeding the wrong artefact.
 
