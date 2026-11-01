@@ -13,7 +13,6 @@ context_params:
     label: "Feature Comparison Matrix"
     description: "The feature comparison matrix — evidence base for the SWOT."
     required: false
-    default_from_previous: true
 connections:
   - target: market-positioning-analysis
     type: derived_from

@@ -17,7 +17,6 @@ context_params:
     label: "SWOT Analysis"
     description: "The SWOT analysis — strategic priorities feeding the map."
     required: false
-    default_from_previous: true
 connections:
   - target: market-positioning-analysis
     type: derived_from

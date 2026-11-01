@@ -21,7 +21,6 @@ context_params:
     label: "Positioning Map Narrative"
     description: "The positioning map narrative."
     required: false
-    default_from_previous: true
 connections:
   - target: strategic-recommendation
     type: derived_from

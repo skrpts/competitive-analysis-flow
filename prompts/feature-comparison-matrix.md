@@ -22,7 +22,6 @@ context_params:
     label: "Competitor Profiles"
     description: "Competitor discovery output — the evidence base for the matrix."
     required: false
-    default_from_previous: true
 connections:
   - target: competitor-profiling
     type: derived_from
