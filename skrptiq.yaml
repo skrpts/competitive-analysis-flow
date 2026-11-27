@@ -2,7 +2,7 @@ id: "87b95bc6-b217-4293-98ea-15af4e5465eb"
 name: "competitive-analysis-flow"
 display_name: "Competitive Analysis Flow"
 description: "Structured competitor research and comparison framework with positioning recommendations"
-version: "1.1.33"
+version: "1.1.34"
 engine: ">=0.1.0"
 
 author:
@@ -26,8 +26,8 @@ dependencies:
     checksum: "sha256:988efceedb278a965f71e5cf2ea19cbc246e4d783c9882b869d0611c4cc8948e"
   - id: "01a55f0b-66e4-4059-9695-3d6043605add"
     name: "check-input-gaps"
-    version: 1.0.5
-    checksum: "sha256:6b1a3537a2f244b44b556d47da7fe2d6a1ddd9968210aa2be85ed8171dd173eb"
+    version: 1.0.6
+    checksum: "sha256:42c39252211b7baf4ee85c4e26030b771913dc9e0f00adf3f6838753583faa8c"
   - id: "dcfb295b-6d09-46ea-8f09-4ba8684a6f25"
     name: "competitor-profiling"
     version: 1.0.3
@@ -79,7 +79,7 @@ contents:
 
 security:
   status: "pass"
-  scanned_at: "2026-11-08T15:20:27.418Z"
+  scanned_at: "2026-11-27T21:28:57.804Z"
   scanner_version: "3.3.0"
   syntactic: "pass"
   structural: "pass"
